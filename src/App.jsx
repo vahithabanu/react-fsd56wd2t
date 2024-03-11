@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 //creating our first component
 function App() {
   return (

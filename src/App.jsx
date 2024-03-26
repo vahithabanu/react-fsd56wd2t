@@ -1,5 +1,11 @@
 
+//creating our second component
 
+const Hello =() =>{
+  return(
+    <h1>Hello world!</h1>
+  )
+}
 
 
 
@@ -11,7 +17,11 @@
 function App() {
   return (
     <div>
-    <h1>Hello World!</h1>
+   <Hello/>
+   <Hello/>
+   <Hello/>
+   <Hello/>
+   <Hello/>
     <p>A basic react application</p>
     </div>
   )

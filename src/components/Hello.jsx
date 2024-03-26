@@ -1,3 +1,6 @@
+import './Hello.css';
+
+
 //creating our second component
 
 const Hello =(props) =>{
@@ -9,7 +12,7 @@ const headerStyle={
      fontFamily:'monospace'
 }
     return(
-      <h1 style={headerStyle}>Hello {props.name}</h1>
+      <h1 className="header">Hello {props.name}</h1>
     )
   }
   

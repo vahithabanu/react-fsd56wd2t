@@ -1,6 +1,7 @@
 
 import Hello from "./components/Hello";
 
+import './App.css';
 
 
 
@@ -9,7 +10,7 @@ import Hello from "./components/Hello";
 //creating our first component
 function App() {
   return (
-    <div>
+    <div className="d-flex flex-column justify-content-center align-items-center">
    <Hello name="React"/>
    <Hello name="CSS"/>
    <Hello name="HTML"/>

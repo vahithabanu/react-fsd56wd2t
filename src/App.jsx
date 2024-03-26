@@ -1,12 +1,5 @@
 
-//creating our second component
-
-const Hello =() =>{
-  return(
-    <h1>Hello world!</h1>
-  )
-}
-
+import Hello from "./components/Hello";
 
 
 

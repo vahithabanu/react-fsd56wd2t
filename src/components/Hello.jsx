@@ -1,4 +1,4 @@
-import './Hello.css';
+/*import './Hello.css';
 
 
 //creating our second component
@@ -16,4 +16,4 @@ const headerStyle={
     )
   }
   
-  export default Hello;
+  export default Hello;*/
